@@ -5,13 +5,13 @@
 // This file contains the JS functions for index.html
 
 function enterClicked () {
-  // this function gets user's first name and age and displays it back to user
+  // this function gets user's sreet name and number and displays it back to user
 
-  // get first name from text field
+  // get street name and number from text field
   let streetName = document.getElementById("street-name").value
 	// get age from text field and cast it to integer
   let streetNumber = parseInt(document.getElementById("street-number").value)
 
-  // display name and age back to user
+  // display name and number back to user
   document.getElementById('user-info').innerHTML = "Your Street Number is " + streetNumber + " and you live on " + streetName + "."
 }
